@@ -465,4 +465,10 @@ iabbrev stdv std::vector<>
 iabbrev stds std::string 
 iabbrev stdl std::list<>
 iabbrev stdm std::map<>
+"ctrlp config
 let g:ctrlp_root_markers = ['.ctrlp']
+let g:CtrlP_cmd = 'CtrlPBuffer'
+let g:CtrlP_cmd = 'CtrlPMRU'
+
+nnoremap <silent> <leader>mr :CtrlPMRU<CR>
+nnoremap <silent> <leader>lb :CtrlPBuffer<CR>
