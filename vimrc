@@ -282,7 +282,7 @@ if has("cscope")
              elseif $CSCOPE_DB !=""
                  cs add $CSCOPE_DB
 			 else 
-				 cs add /home/centos/WorkSpace/EarthViewServer_Makefile/EarthViewServer/cscope.out
+				 cs add ~/cscope.out
              endif
 
             " show msg when any other cscope db added
