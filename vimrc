@@ -228,7 +228,7 @@ function Settags()
 	if filereadable("tags")
 		execute "set tags=" . getcwd() . "/tags"
 	else 
-		execute "set tags=~/WorkSpace/EarthViewServer_Makefile/EarthViewServer/tags"
+		execute "set tags=~/tags"
 	endif
 
 endfunction
