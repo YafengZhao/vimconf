@@ -241,7 +241,6 @@ let Tlist_File_Fold_Auto_Close = 0  " 不要关闭其他文件的tags
 let Tlist_Enable_Fold_Column = 0    " 不要显示折叠树  
 "let Tlist_Show_One_File=1            "不同时显示多个文件的tag，只显示当前文件的
 "设置tags  
-"set tags+=~/WorkSpace/EarthViewServer_Makefile/EarthViewServer/tags
 "set tags+=./tags
 "set autochdir 
 call Settags()
